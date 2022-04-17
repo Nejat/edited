@@ -1,0 +1,17 @@
+[package]
+name = "example"
+version = "0.1.0"
+edition = "2021"
+description = "example of edited and cli-editor macros in use"
+license = "MIT"
+publish = false
+homepage = "https://github.com/Nejat/edited"
+repository = "https://github.com/Nejat/edited"
+keywords = ["editor", "cli", "struct"]
+authors = ["Nejat<nejatoz@gmail.com>"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+edited = { version = "0.0.0", path = "../edited" }
+cli-editor = { version = "0.0.0", path = "../cli-editor" }
+

@@ -1,0 +1,15 @@
+[package]
+name = "edited-tests"
+version = "0.0.0"
+edition = "2021"
+description = "testing for edited, a macro deriving edit tracking for custom structs"
+license = "MIT"
+publish = false
+homepage = "https://github.com/Nejat/edited"
+repository = "https://github.com/Nejat/edited"
+keywords = ["editor", "cli", "struct", "tracking"]
+authors = ["Nejat<nejatoz@gmail.com>"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+edited = { version = "0.0.0", path = "../../edited"}

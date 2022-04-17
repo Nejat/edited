@@ -1,0 +1,15 @@
+[package]
+name = "cli-editor-tests"
+version = "0.0.0"
+edition = "2021"
+description = "testing for cli-editor, a macro for deriving a cli editor for custom structs"
+license = "MIT"
+publish = false
+homepage = "https://github.com/Nejat/edited"
+repository = "https://github.com/Nejat/edited"
+keywords = ["editor", "cli", "struct"]
+authors = ["Nejat<nejatoz@gmail.com>"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+cli-editor = { version = "0.0.0", path = "../../cli-editor"}

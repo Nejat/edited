@@ -1,0 +1,24 @@
+[package]
+name = "edited"
+version = "0.0.0"
+edition = "2021"
+description = "edited, a macro deriving edit tracking for custom structs"
+license = "MIT"
+readme = "README.md"
+include = ["src/**/*", "Cargo.toml", "LICENSE-MIT", "README.md"]
+homepage = "https://github.com/Nejat/edited"
+repository = "https://github.com/Nejat/edited"
+keywords = ["editor", "cli", "struct", "tracking"]
+authors = ["Nejat<nejatoz@gmail.com>"]
+categories = ["command-line-utilities"]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+quote = "1"
+proc-macro2 = "1.0"
+syn = "1.0"
+
+[dev-dependencies]
+version-sync = "0.9"
