@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/edited/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/tests/edited-tests/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/tests/cli-editor-tests/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/example/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
       <excludeFolder url="file://$MODULE_DIR$/tests/target" />
     </content>

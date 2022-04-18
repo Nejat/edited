@@ -1,7 +1,8 @@
 [workspace]
 members = [
-    "edited",
     "cli-editor",
+    "edited",
+    "example",
+    "tests/cli-editor-tests",
     "tests/edited-tests",
-    "tests/cli-editor-tests"
 ]
